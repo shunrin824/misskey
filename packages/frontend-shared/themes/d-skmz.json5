@@ -1,0 +1,19 @@
+{
+    id: 'b77623af-9bc9-47d6-904f-95ce77ef0ef2',
+    name: 'SKMZ Dark Pool',
+    author: 'notoiro',
+    base: 'dark',
+    props: {
+        bg: '#3e4364',
+        fg: '#edf0f9',
+        link: '@accent',
+        panel: '#515671',
+        accent: '#31D6FE',
+        renote: '@accent',
+        hashtag: '@accent',
+        mention: '@accent',
+        fgOnWhite: '@accent',
+        panelHeaderBg: '@panel',
+        panelHeaderDivider: 'rgba(255, 255, 255, 0.1)',
+    },
+}

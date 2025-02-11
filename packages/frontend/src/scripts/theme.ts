@@ -32,6 +32,11 @@ export const themeProps = Object.keys(lightTheme.props).filter(key => !key.start
 
 export const getBuiltinThemes = () => Promise.all(
 	[
+		// SMKZ themes
+		'l-skmz',
+		'd-skmz',
+		'd-skmz-orange',
+
 		'l-light',
 		'l-coffee',
 		'l-apricot',
@@ -52,6 +57,7 @@ export const getBuiltinThemes = () => Promise.all(
 		'd-cherry',
 		'd-ice',
 		'd-u0',
+
 	].map(name => import(`@@/themes/${name}.json5`).then(({ default: _default }): Theme => _default)),
 );
 

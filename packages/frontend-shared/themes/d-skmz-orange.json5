@@ -1,0 +1,19 @@
+{
+    id: 'dc067975-fa75-4b28-ab0a-6d1d2d042a40',
+    name: 'SKMZ Dark Orange',
+    author: 'notoiro',
+    base: 'dark',
+    props: {
+        bg: '#3e4364',
+        fg: '#edf0f9',
+        link: '@accent',
+        panel: '#515671',
+        accent: '#ee9c35',
+        renote: '@accent',
+        hashtag: '@accent',
+        mention: '@accent',
+        fgOnWhite: '@accent',
+        panelHeaderBg: '@panel',
+        panelHeaderDivider: 'rgba(255, 255, 255, 0.1)',
+    },
+}

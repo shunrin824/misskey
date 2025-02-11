@@ -1,0 +1,20 @@
+{
+    id: '48e83323-70b2-4497-971d-6a1d6393029d',
+    name: 'SKMZ Light',
+    author: 'notoiro',
+    base: 'light',
+    props: {
+        accent: '#2c327d',
+        bg: '#eff1fa',
+        fg: '#464e9a',
+        fgOnWhite: '@accent',
+        panel: '#F6F7FF',
+        panelHeaderBg: '@panel',
+        divider: 'rgba(87, 68, 68, 0.1)',
+        panelHeaderDivider: '@divider',
+        renote: '@link',
+        link: '#5dc1e0',
+        mention: '@link',
+        hashtag: '@link',
+    },
+}
